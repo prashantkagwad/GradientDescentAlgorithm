@@ -1,3 +1,1 @@
-# GradientDescentAlgorithm 
-# GradientDescentAlgorithm- 
-# GradientDescentAlgorithm 
+# GradientDescentAlgorithm
