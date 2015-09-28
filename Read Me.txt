@@ -1,0 +1,19 @@
+The program has multiple .java files in the project namespace that are required for proper execution of the program. In order to run the program, you need to run GradientDescentAlgorithm.java. <this is the main .java file>
+  
+The program can be executed on any platform. To run GradientDescentAlgorithm.java follows the steps mentioned below:
+
+Tested on Windows Cmd Prompt:
+
+Step 1 : > javac  *.java
+Step 2: > java GradientDescentAlgorithm <training file> < test file> <learning rate> <number of iterations to run the algorithm>
+EX : \\GradientDescentAlgorithm\src\com\gda> java GradientDescentAlgorithm train.dat test.dat 0.1 100
+
+The program takes 4 arguments -
+First Argument      : type the name of the training file, example "train.dat". <with no path infront of it> <pathinfo>
+Second Argument : type the name of the test file, example "test.dat". <with no path infront of it> <pathinfo>
+Third Argument    : learning rate
+Fourth Argument : number of iterations to run the algorithm
+
+Any number of arguments less or more than 4 will cause the program to exit.
+
+<pathinfo> - The path is already feed in the program. It takes these files from the Input folder inside the Main Project folder. If you want to test the program on new files other than the onces given to us, please drop these files in the Input folder and pass only the name of the file as an argument to the program.
